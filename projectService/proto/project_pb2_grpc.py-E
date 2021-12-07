@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-from . 0
+import project_pb2 as project__pb2
 
 
 class ProjectSvcStub(object):

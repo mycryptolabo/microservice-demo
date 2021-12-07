@@ -9,7 +9,7 @@ grpc_tools_node_protoc \
     --proto_path=./protos/user ./protos/user/*.proto
 
 # Build the project service protos for Python
-python -m grpc_tools.protoc \
+python3 -m grpc_tools.protoc \
     --python_out=./projectService/proto \
     --grpc_python_out=./projectService/proto \
     --proto_path=./protos/project ./protos/project/*.proto
